@@ -1,6 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import styles from './index.module.scss'
+/* 
+ */
 const Header:React.FC=React.memo(()=>{
     return (
         <div className={styles.header}>
@@ -15,7 +17,7 @@ const Header:React.FC=React.memo(()=>{
                     <i className="iconfont">&#xe60c;</i>
                 </Link>
             </div> 
-            
+
         </div>
     )
 })
